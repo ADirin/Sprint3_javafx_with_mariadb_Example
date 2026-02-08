@@ -45,6 +45,8 @@
             <scope>test</scope>
         </dependency>
 
+
+
     </dependencies>
 
 <build>
@@ -58,6 +60,12 @@
             <mainClass>Main</mainClass> <!-- Replace with your full class name if in a package -->
         </configuration>
     </plugin>
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+    </plugin>
+
 
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
